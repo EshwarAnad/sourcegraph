@@ -265,6 +265,7 @@ type ListChangesetsArgs struct {
 	ReviewState                 *campaigns.ChangesetReviewState
 	CheckState                  *campaigns.ChangesetCheckState
 	OnlyPublishedByThisCampaign *bool
+	Search                      *string
 }
 
 type CampaignResolver interface {
