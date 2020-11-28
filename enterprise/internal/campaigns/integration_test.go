@@ -29,6 +29,7 @@ func TestIntegration(t *testing.T) {
 		t.Run("Changesets", storeTest(db, testStoreChangesets))
 		t.Run("ChangesetEvents", storeTest(db, testStoreChangesetEvents))
 		t.Run("ListChangesetSyncData", storeTest(db, testStoreListChangesetSyncData))
+		t.Run("ListChangesetsTextSearch", storeTest(db, testStoreListChangesetsTextSearch))
 		t.Run("CampaignSpecs", storeTest(db, testStoreCampaignSpecs))
 		t.Run("ChangesetSpecs", storeTest(db, testStoreChangesetSpecs))
 		t.Run("CodeHosts", storeTest(db, testStoreCodeHost))
