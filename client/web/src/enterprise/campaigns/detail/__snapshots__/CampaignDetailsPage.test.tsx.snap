@@ -515,13 +515,54 @@ description: somestring",
       viewerCanAdminister={false}
     >
       <div
-        className="d-flex justify-content-end"
+        className="d-sm-flex justify-content-end"
       >
         <ChangesetFilterRow
           history="[History]"
           location="[Location path=/]"
           onFiltersChange={[Function]}
         >
+          <div
+            className="form-inline flex-grow-1 m-0 my-2"
+          >
+            <Form
+              className="w-100 d-flex"
+              onSubmit={[Function]}
+              tag="form"
+            >
+              <form
+                className="w-100 d-flex"
+                onSubmit={[Function]}
+              >
+                <input
+                  className="form-control w-100 changeset-filter__search"
+                  placeholder="Search"
+                  type="text"
+                />
+                <SearchButton
+                  noHelp={true}
+                >
+                  <div
+                    className="search-button d-flex"
+                  >
+                    <button
+                      aria-label="Search"
+                      className="btn btn-primary search-button__btn test-search-button"
+                      type="submit"
+                    >
+                      <Memo(SearchIcon)
+                        aria-hidden="true"
+                        className="icon-inline"
+                      />
+                    </button>
+                  </div>
+                </SearchButton>
+              </form>
+            </Form>
+          </div>
+          <div
+            className="flex-grow-1"
+          />
           <div
             className="form-inline m-0 my-2"
           >
@@ -541,84 +582,8 @@ description: somestring",
                 ]
               }
             >
-              <div
-                className="d-none d-lg-block btn-group flex-wrap mr-2"
-                role="group"
-              >
-                <button
-                  className="btn btn-outline-secondary active"
-                  onClick={[Function]}
-                  type="button"
-                >
-                  All
-                </button>
-                <button
-                  className="btn btn-outline-secondary"
-                  key="UNPUBLISHED"
-                  onClick={[Function]}
-                  type="button"
-                >
-                  Unpublished
-                </button>
-                <button
-                  className="btn btn-outline-secondary"
-                  key="ERRORED"
-                  onClick={[Function]}
-                  type="button"
-                >
-                  Errored
-                </button>
-                <button
-                  className="btn btn-outline-secondary"
-                  key="PROCESSING"
-                  onClick={[Function]}
-                  type="button"
-                >
-                  Processing
-                </button>
-                <button
-                  className="btn btn-outline-secondary"
-                  key="OPEN"
-                  onClick={[Function]}
-                  type="button"
-                >
-                  Open
-                </button>
-                <button
-                  className="btn btn-outline-secondary"
-                  key="DRAFT"
-                  onClick={[Function]}
-                  type="button"
-                >
-                  Draft
-                </button>
-                <button
-                  className="btn btn-outline-secondary"
-                  key="CLOSED"
-                  onClick={[Function]}
-                  type="button"
-                >
-                  Closed
-                </button>
-                <button
-                  className="btn btn-outline-secondary"
-                  key="MERGED"
-                  onClick={[Function]}
-                  type="button"
-                >
-                  Merged
-                </button>
-                <button
-                  className="btn btn-outline-secondary"
-                  key="DELETED"
-                  onClick={[Function]}
-                  type="button"
-                >
-                  Deleted
-                </button>
-              </div>
               <ChangesetFilter
-                className="d-block d-lg-none mr-2"
+                className="d-block mr-2"
                 label="Changeset state"
                 onChange={[Function]}
                 values={
@@ -635,7 +600,7 @@ description: somestring",
                 }
               >
                 <select
-                  className="form-control changeset-filter__dropdown d-block d-lg-none mr-2"
+                  className="form-control changeset-filter__dropdown d-block mr-2"
                   onChange={[Function]}
                 >
                   <option
@@ -1468,13 +1433,54 @@ description: somestring",
       viewerCanAdminister={true}
     >
       <div
-        className="d-flex justify-content-end"
+        className="d-sm-flex justify-content-end"
       >
         <ChangesetFilterRow
           history="[History]"
           location="[Location path=/]"
           onFiltersChange={[Function]}
         >
+          <div
+            className="form-inline flex-grow-1 m-0 my-2"
+          >
+            <Form
+              className="w-100 d-flex"
+              onSubmit={[Function]}
+              tag="form"
+            >
+              <form
+                className="w-100 d-flex"
+                onSubmit={[Function]}
+              >
+                <input
+                  className="form-control w-100 changeset-filter__search"
+                  placeholder="Search"
+                  type="text"
+                />
+                <SearchButton
+                  noHelp={true}
+                >
+                  <div
+                    className="search-button d-flex"
+                  >
+                    <button
+                      aria-label="Search"
+                      className="btn btn-primary search-button__btn test-search-button"
+                      type="submit"
+                    >
+                      <Memo(SearchIcon)
+                        aria-hidden="true"
+                        className="icon-inline"
+                      />
+                    </button>
+                  </div>
+                </SearchButton>
+              </form>
+            </Form>
+          </div>
+          <div
+            className="flex-grow-1"
+          />
           <div
             className="form-inline m-0 my-2"
           >
@@ -1494,84 +1500,8 @@ description: somestring",
                 ]
               }
             >
-              <div
-                className="d-none d-lg-block btn-group flex-wrap mr-2"
-                role="group"
-              >
-                <button
-                  className="btn btn-outline-secondary active"
-                  onClick={[Function]}
-                  type="button"
-                >
-                  All
-                </button>
-                <button
-                  className="btn btn-outline-secondary"
-                  key="UNPUBLISHED"
-                  onClick={[Function]}
-                  type="button"
-                >
-                  Unpublished
-                </button>
-                <button
-                  className="btn btn-outline-secondary"
-                  key="ERRORED"
-                  onClick={[Function]}
-                  type="button"
-                >
-                  Errored
-                </button>
-                <button
-                  className="btn btn-outline-secondary"
-                  key="PROCESSING"
-                  onClick={[Function]}
-                  type="button"
-                >
-                  Processing
-                </button>
-                <button
-                  className="btn btn-outline-secondary"
-                  key="OPEN"
-                  onClick={[Function]}
-                  type="button"
-                >
-                  Open
-                </button>
-                <button
-                  className="btn btn-outline-secondary"
-                  key="DRAFT"
-                  onClick={[Function]}
-                  type="button"
-                >
-                  Draft
-                </button>
-                <button
-                  className="btn btn-outline-secondary"
-                  key="CLOSED"
-                  onClick={[Function]}
-                  type="button"
-                >
-                  Closed
-                </button>
-                <button
-                  className="btn btn-outline-secondary"
-                  key="MERGED"
-                  onClick={[Function]}
-                  type="button"
-                >
-                  Merged
-                </button>
-                <button
-                  className="btn btn-outline-secondary"
-                  key="DELETED"
-                  onClick={[Function]}
-                  type="button"
-                >
-                  Deleted
-                </button>
-              </div>
               <ChangesetFilter
-                className="d-block d-lg-none mr-2"
+                className="d-block mr-2"
                 label="Changeset state"
                 onChange={[Function]}
                 values={
@@ -1588,7 +1518,7 @@ description: somestring",
                 }
               >
                 <select
-                  className="form-control changeset-filter__dropdown d-block d-lg-none mr-2"
+                  className="form-control changeset-filter__dropdown d-block mr-2"
                   onChange={[Function]}
                 >
                   <option
