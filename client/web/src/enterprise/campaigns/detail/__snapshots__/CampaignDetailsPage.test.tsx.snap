@@ -877,7 +877,7 @@ description: somestring",
                         <span
                           className="text-monospace"
                         >
-                          repositorieMatchingQuery:
+                          repositoriesMatchingQuery:
                         </span>
                          may not have matched any repositories.
                       </strong>
@@ -1795,7 +1795,7 @@ description: somestring",
                         <span
                           className="text-monospace"
                         >
-                          repositorieMatchingQuery:
+                          repositoriesMatchingQuery:
                         </span>
                          may not have matched any repositories.
                       </strong>
