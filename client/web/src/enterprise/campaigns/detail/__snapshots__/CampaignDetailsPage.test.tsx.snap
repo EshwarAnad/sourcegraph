@@ -175,8 +175,7 @@ exports[`CampaignDetailsPage supersedingCampaignSpec: [object Object]; viewerCan
         className="d-none d-md-block"
       >
         <Memo(CreationIcon)
-          className="mr-2"
-          size={40}
+          className="icon icon-inline mr-2"
         />
       </div>
       <div
@@ -189,11 +188,10 @@ exports[`CampaignDetailsPage supersedingCampaignSpec: [object Object]; viewerCan
           <a
             href="/users/foo/campaigns/apply/BAR"
           >
-            newer version of this campaign spec
+            newer campaign spec
           </a>
         </AnchorLink>
-         was uploaded
-         
+         was uploaded 
         <Timestamp
           date="2020-01-01T00:00:00Z"
         >
@@ -204,7 +202,7 @@ exports[`CampaignDetailsPage supersedingCampaignSpec: [object Object]; viewerCan
             in almost 14 years
           </span>
         </Timestamp>
-        , and has not yet been applied.
+        .
       </div>
     </div>
   </SupersedingCampaignSpecAlert>
@@ -1180,8 +1178,7 @@ exports[`CampaignDetailsPage supersedingCampaignSpec: [object Object]; viewerCan
         className="d-none d-md-block"
       >
         <Memo(CreationIcon)
-          className="mr-2"
-          size={40}
+          className="icon icon-inline mr-2"
         />
       </div>
       <div
@@ -1194,11 +1191,10 @@ exports[`CampaignDetailsPage supersedingCampaignSpec: [object Object]; viewerCan
           <a
             href="/users/foo/campaigns/apply/BAR"
           >
-            newer version of this campaign spec
+            newer campaign spec
           </a>
         </AnchorLink>
-         was uploaded
-         
+         was uploaded 
         <Timestamp
           date="2020-01-01T00:00:00Z"
         >
@@ -1209,7 +1205,7 @@ exports[`CampaignDetailsPage supersedingCampaignSpec: [object Object]; viewerCan
             in almost 14 years
           </span>
         </Timestamp>
-        , and has not yet been applied.
+        .
       </div>
     </div>
   </SupersedingCampaignSpecAlert>
